@@ -23,7 +23,7 @@ public class NoteApp {
                 try(FileWriter fw = new FileWriter("Notes.txt",true)) {
                     fw.write(note+"\n");
                 } catch (IOException e) {
-                    System.out.println("Error While Writing!!!");
+                    System.out.println("Error While Writing!");
                 }
             }
 
@@ -34,7 +34,7 @@ public class NoteApp {
                         System.out.println("_ "+line);
                     }
                 }catch(IOException e){
-                    System.out.println("Error While Reading!!!");
+                    System.out.println("Error While Reading!");
                 }
             }
 
